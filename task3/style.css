@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(./helvetica-now-display/);
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+
+}
+#nav {
+    margin: 30px 80px;
+}
+
+#nav a{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#main >h1{
+    font-size: 250px;
+    font-weight: 50;
+    padding-left: 70px;
+    
+}
+#btmleft{
+    width: 250px;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+
+#btmleft h3{
+    margin-top: 80px;
+}
+
+#btmleft h4{
+    margin-top: 30px;
+}
+
+#btmbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 65px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#btmbar h1{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#btmbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+#main>img{
+    position: absolute;
+    height: 250px;
+}
+
+#main #first{
+    top: 48%;
+    left: 40%;
+}
+
+#main #second{
+    height: 220px;
+    top: 60%;
+    left: 51%;
+}
+
+#main #third{
+    height: 270px;
+    top: 40%;
+    left: 60%;
+}
